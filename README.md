@@ -22,7 +22,7 @@ dotnet new -l
 ```
 Templates                                          Short Name                 Language          Tags
 ----------------------------------------------------------------------------------------------------------
-.NET Core 6.0 Template 						       nice.CA      [C#]              Web/API/Microservices
+.NET Core 6.0 Template 				    nice.CA                     [C#]         Web/API/Microservices
 ```
 
 4. To Create the .Net Core Solution by using Template use below instructions. 
