@@ -4,7 +4,11 @@
 
 1. Clone this repository
 
-2. Run "Install Template" bat file it will install roptia template :
+2. Install Template on your system.  Open CMD in Downloaded Path. 
+	
+```
+dotnet new -i clean-architecture
+```	
 
 
 3. To check that the template has been installed successfully:
