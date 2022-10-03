@@ -34,3 +34,12 @@ dotnet new nice.CA  -n {{Namespace_of_your_project}} --Port 44550  --Sslport 445
 
 - This will create the folder containing a solution and project folder.
 
+
+
+5. Optional Step To Uninstall the template
+
+```
+dotnet new --uninstall clean-architecture
+``` 
+	
+
