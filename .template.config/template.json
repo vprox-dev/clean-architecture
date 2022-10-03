@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Balaji Kumar",
+  "classifications": ["Web", "API", "Microservices"],
+  "name": ".NET 6 Template with Clean Architecture",
+  "identity": "clean architecture",
+  "shortName": "nice.CA",
+  "tags": {
+    "language": "C#"
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            ".vs/**",
+            ".git/**",
+            "README.md",
+            "bin/**",
+            "obj/**",
+            "images/logo.jpg",
+            "images/installation.jpg"
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceName": "CleanArchitecture",
+  "preferNameDirectory": true,
+  "symbols": {
+    "author": {
+      "type": "parameter",
+      "defaultValue": "Balaji Kumar",
+      "replaces": "__PROJECT_AUTHOR__"
+    },
+    "description": {
+      "type": "parameter",
+      "defaultValue": ".NET 6 Template with Clean Architecture",
+      "replaces": "__PROJECT_DESCRIPTION__"
+    },
+    "namespace": {
+      "type": "parameter",
+      "defaultValue": "CleanArchitecture",
+      "replaces": "CleanArchitecture"
+    },
+    "version": {
+      "type": "parameter",
+      "defaultValue": "1.0.0",
+      "replaces": "99.99.99"
+    },
+	
+	"Port": {
+      "type": "parameter",
+      "defaultValue": "8000",
+      "replaces": "[port]"
+    },
+	"Sslport": {
+      "type": "parameter",
+      "defaultValue": "8001",
+      "replaces": "[sslPort]"
+    }
+  }
+}
